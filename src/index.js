@@ -211,7 +211,7 @@ async function app() {
     // return;
   }
 
-  let wsURL = 'wss://new-socket-server.herokuapp.com/:443'
+  let wsURL = 'ws://localhost:5001'
   if (urlParams.has('wsURL')) {
     wsURL = urlParams.get('wsURL')
   } 

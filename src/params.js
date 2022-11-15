@@ -26,7 +26,7 @@ export const VIDEO_SIZE = {
   '360 X 270': {width: 368, height: 207}
 };
 export const STATE = {
-  ws: {wsURL: 'wss://localhost:5000', connect: () => {}},
+  ws: {wsURL: 'ws://localhost:5001', connect: () => {}},
   camera: {targetFPS: 60, sizeOption: '640 X 480', displayCanvas: true},
   backend: '',
   flags: {},
